@@ -1,0 +1,23 @@
+function isFibonacci(num) {
+   
+    let a = 0, b = 1;
+    
+    if (num === a || num === b) {
+        return `O número ${num} pertence à sequência de Fibonacci.`;
+    }
+
+    let next = a + b;
+    while (next <= num) {
+        if (next === num) {
+            return `O número ${num} pertence à sequência de Fibonacci.`;
+        }
+        a = b;
+        b = next;
+        next = a + b;
+    }
+
+    return `O número ${num} não pertence à sequência de Fibonacci.`;
+}
+
+let numero = 13; // Informe o número que deseja verificar
+console.log(isFibonacci(numero));
