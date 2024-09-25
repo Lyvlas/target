@@ -1,0 +1,11 @@
+int INDICE = 12, SOMA = 0, K = 1;
+
+while (K < INDICE) {
+    K = K + 1;
+    SOMA = SOMA + K;
+}
+
+imprimir(SOMA);
+
+//K = K + 1 → K = 12
+//SOMA = SOMA + K → SOMA = 65 + 12 = 77
