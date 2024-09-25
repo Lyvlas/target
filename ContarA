@@ -1,0 +1,14 @@
+function contarOcorrenciasA(str) {
+    let regex = /a/gi; // 'g' para global, 'i' para ignorar maiúsculas/minúsculas
+    let matches = str.match(regex); // Retorna um array com todas as ocorrências encontradas
+    
+    if (matches) {
+        return `A letra 'a' ocorre ${matches.length} vezes na string.`;
+    } else {
+        return "A letra 'a' não foi encontrada na string.";
+    }
+}
+
+let string = "JavaScript é uma linguagem de programação fantástica!";
+
+console.log(contarOcorrenciasA(string));
