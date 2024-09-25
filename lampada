@@ -1,0 +1,9 @@
+Primeiro passo: Começo ligando o primeiro interruptor e deixo ele ligado por alguns minutos, talvez uns 5 minutos. Esse tempo é suficiente para a lâmpada associada a esse interruptor aquecer.
+
+Segundo passo: Após esperar o tempo necessário, desligo o primeiro interruptor e ligo o segundo interruptor imediatamente.
+
+Terceiro passo: Agora, vou até a sala das lâmpadas. Quando eu chegar lá, verifico o estado das lâmpadas:
+
+A lâmpada que estiver acesa está ligada ao segundo interruptor (o que eu deixei ligado antes de sair da sala dos interruptores).
+A lâmpada que estiver apagada, mas quente ao toque está ligada ao primeiro interruptor (que estava ligado por alguns minutos antes de eu desligá-lo).
+A lâmpada que estiver apagada e fria está ligada ao terceiro interruptor (o que eu nunca liguei).
